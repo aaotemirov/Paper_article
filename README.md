@@ -2,8 +2,7 @@
 
 Reference implementation of the paper
 
-> A. Temirov, N. Atadjanova, M. Musayev. *A Reliable Neural Network Model Based on Cross-Attention Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection.* The 10th International Conference on Emerging Data and Industry (EDI 2027), Delft, the Netherlands. Procedia Computer Science, Elsevier.
-
+> A Reliable Neural Network Model Based on Cross-Attention Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection.
 CAGF-Net combines a temporal-bone CT region of interest with pure-tone audiometry and tympanometry.
 Its design is motivated by a Bayesian analysis of evidence fusion:
 
