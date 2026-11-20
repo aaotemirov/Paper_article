@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "CAGF-Net: Cross-Attention Gated Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Temirov
+    given-names: Azizbek
+    affiliation: "Tashkent University of Information Technology named after Muhammad al-Khwarizmi"
+  - family-names: Atadjanova
+    given-names: Nozima
+    affiliation: "Tashkent University of Information Technology named after Muhammad al-Khwarizmi"
+  - family-names: Musayev
+    given-names: Musabek
+    affiliation: "Tashkent University of Information Technology named after Muhammad al-Khwarizmi"
+preferred-citation:
+  type: conference-paper
+  title: "A Reliable Neural Network Model Based on Cross-Attention Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection"
+  authors:
+    - family-names: Temirov
+      given-names: Azizbek
+    - family-names: Atadjanova
+      given-names: Nozima
+    - family-names: Musayev
+      given-names: Musabek
+  collection-title: "The 10th International Conference on Emerging Data and Industry (EDI 2027)"
+  journal: "Procedia Computer Science"
+  publisher:
+    name: Elsevier
+  year: 2027

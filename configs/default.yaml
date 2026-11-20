@@ -1,0 +1,26 @@
+# Paper protocol (EDI 2027): NHANES 2015-2016 background, 1200/400/400/600 samples,
+# 25 epochs, batch 64, AdamW (lr 1e-3, weight decay 1e-3), 3 seeds, R = 30 MC-dropout passes.
+output_dir: results/paper
+
+data:
+  source: nhanes            # downloads AUX_I.xpt + DEMO_I.xpt from CDC on first run
+  nhanes_dir: data/nhanes
+  cache_dir: data/cache
+  n_train: 1200
+  n_val: 400
+  n_test: 400
+  n_external: 600
+  data_seed: 2027
+
+train:
+  epochs: 25
+  batch_size: 64
+  lr: 1.0e-3
+  weight_decay: 1.0e-3
+  seeds: [0, 1, 2]
+
+eval:
+  mc_samples: 30
+  coverage: 0.8
+  bootstrap: 1000
+  noise_levels: [0, 100, 200, 300, 400, 500]   # sigma (HU) added on top of the 110-180 HU acquisition noise

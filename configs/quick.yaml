@@ -1,0 +1,19 @@
+# Fast offline smoke test (a few minutes on a CPU). Uses the built-in synthetic
+# audiometric background instead of NHANES -> numbers are NOT the paper results.
+output_dir: results/quick
+
+data:
+  source: synthetic
+  n_train: 400
+  n_val: 150
+  n_test: 150
+  n_external: 200
+
+train:
+  epochs: 4
+  seeds: [0]
+
+eval:
+  mc_samples: 10
+  bootstrap: 200
+  noise_levels: [0, 250, 500]
