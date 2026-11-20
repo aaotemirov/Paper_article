@@ -34,8 +34,8 @@ Split sizes: train 1200, validation 400, internal test 400, external 600.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-account>/CAGF-Net.git
-cd CAGF-Net
+git clone https://github.com/aaotemirov/Paper_article.git
+cd Paper_article
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
