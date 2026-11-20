@@ -120,7 +120,7 @@ NHANES data are produced by the U.S. National Center for Health Statistics (CDC/
 ```bibtex
 @inproceedings{temirov2027cagfnet,
   title     = {A Reliable Neural Network Model Based on Cross-Attention Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection},
-  author    = {Temirov, Azizbek and Atadjanova, Nozima and Musayev, Musabek},
+  author    = {Temirov Azizbek},
   booktitle = {The 10th International Conference on Emerging Data and Industry (EDI 2027)},
   series    = {Procedia Computer Science},
   publisher = {Elsevier},
