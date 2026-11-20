@@ -1,0 +1,35 @@
+{
+  "title": "CAGF-Net: Cross-Attention Gated Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection",
+  "description": "<p>Reference implementation of the paper <em>A Reliable Neural Network Model Based on Cross-Attention Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection</em> (The 10th International Conference on Emerging Data and Industry, EDI 2027, Procedia Computer Science, Elsevier).</p><p>The software contains: (i) a reproducible hybrid simulation benchmark combining real NHANES 2015&ndash;2016 audiometric data with synthetic conductive pathology and a parametric temporal-bone CT phantom, including an artificial external domain; (ii) CAGF-Net with bidirectional cross-attention, gated fusion and modality-dropout, together with single-modality, Bayesian late-fusion and early-fusion baselines and ablations; (iii) temperature-and-shift calibration, Monte Carlo dropout uncertainty and selective prediction; (iv) evaluation with AUC/AP, ECE, Brier score, bootstrap confidence intervals and the DeLong test.</p><p>The CT component is a phantom and the pathology is synthetic; results constitute a simulation-based validation of the method, not clinical performance.</p>",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Temirov, Azizbek",
+      "affiliation": "Tashkent University of Information Technology named after Muhammad al-Khwarizmi"
+    },
+    {
+      "name": "Atadjanova, Nozima",
+      "affiliation": "Tashkent University of Information Technology named after Muhammad al-Khwarizmi"
+    },
+    {
+      "name": "Musayev, Musabek",
+      "affiliation": "Tashkent University of Information Technology named after Muhammad al-Khwarizmi"
+    }
+  ],
+  "keywords": [
+    "cholesteatoma",
+    "computed tomography",
+    "audiometry",
+    "tympanometry",
+    "multimodal fusion",
+    "cross-attention",
+    "prediction uncertainty",
+    "calibration",
+    "deep learning",
+    "NHANES"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0"
+}
