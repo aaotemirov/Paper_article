@@ -2,7 +2,17 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "CAGF-Net: Cross-Attention Gated Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection"
 version: 1.0.0
+doi: 10.5281/zenodo.24388234
+date-released: 2026-11-20
 license: MIT
+repository-code: "https://github.com/aaotemirov/Paper_article"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24388234
+    description: "Zenodo archive of version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.24388233
+    description: "Zenodo concept DOI (all versions)"
 authors:
   - family-names: Temirov
     given-names: Azizbek

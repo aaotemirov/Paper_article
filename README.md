@@ -1,8 +1,11 @@
 # CAGF-Net: Cross-Attention Gated Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24388234.svg)](https://doi.org/10.5281/zenodo.24388234)
+
 Reference implementation of the paper
 
 > A Reliable Neural Network Model Based on Cross-Attention Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection.
+
 CAGF-Net combines a temporal-bone CT region of interest with pure-tone audiometry and tympanometry.
 Its design is motivated by a Bayesian analysis of evidence fusion:
 
@@ -116,6 +119,24 @@ tests/                 unit tests
 NHANES data are produced by the U.S. National Center for Health Statistics (CDC/NCHS) and are in the public domain. They are downloaded at run time and are not redistributed in this repository.
 
 ## Citation
+
+Software (Zenodo archive of this repository, v1.0.0):
+
+> Temirov, A., Atadjanova, N., & Musayev, M. (2026). CAGF-Net: Cross-Attention Gated Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24388234
+
+```bibtex
+@software{temirov2026cagfnet_code,
+  author    = {Temirov, Azizbek and Atadjanova, Nozima and Musayev, Musabek},
+  title     = {{CAGF-Net: Cross-Attention Gated Fusion of CT Imaging and Audiometric Signals for Cholesteatoma Detection}},
+  version   = {1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24388234},
+  url       = {https://doi.org/10.5281/zenodo.24388234}
+}
+```
+
+Paper:
 
 ```bibtex
 @inproceedings{temirov2027cagfnet,
